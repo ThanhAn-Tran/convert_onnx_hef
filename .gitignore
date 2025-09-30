@@ -1,0 +1,7 @@
+**/.venv/**
+**/calibration_images/**
+**/Compiler_pt_to_Hef/**
+**/paper_ball-4/**
+**/__pycache__/**
+**/*.pyc
+**/*.pyo
