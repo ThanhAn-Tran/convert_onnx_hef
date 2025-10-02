@@ -1,0 +1,65 @@
+2025-10-02 11:04:35,950 - WARNING - __init__.py:56 - Cannot use graphviz, so no visualizations will be created
+2025-10-02 11:04:35,951 - INFO - __init__.py:84 - First time Hailo Dataflow Compiler is being used. Checking system requirements... (this might take a few seconds)
+2025-10-02 11:04:59,240 - WARNING - __init__.py:56 - Cannot use graphviz, so no visualizations will be created
+2025-10-02 11:06:06,542 - WARNING - __init__.py:56 - Cannot use graphviz, so no visualizations will be created
+2025-10-02 11:06:06,585 - INFO - parser.py:158 - Translation started on ONNX model paper_ball
+2025-10-02 11:06:06,623 - INFO - parser.py:193 - Restored ONNX model paper_ball (completion time: 00:00:00.04)
+2025-10-02 11:06:06,787 - INFO - parser.py:216 - Extracted ONNXRuntime meta-data for Hailo model (completion time: 00:00:00.20)
+2025-10-02 11:06:07,322 - INFO - onnx_translator.py:2640 - NMS structure of yolov8 (or equivalent architecture) was detected.
+2025-10-02 11:06:07,322 - INFO - onnx_translator.py:2642 - In order to use HailoRT post-processing capabilities, these end node names should be used: /model.23/cv3.0/cv3.0.2/Conv /model.23/cv2.0/cv2.0.2/Conv /model.23/cv3.1/cv3.1.2/Conv /model.23/cv2.1/cv2.1.2/Conv /model.23/cv2.2/cv2.2.2/Conv /model.23/cv3.2/cv3.2.2/Conv.
+2025-10-02 11:06:07,430 - INFO - parser.py:366 - Start nodes mapped from original model: 'images': 'paper_ball/input_layer1'.
+2025-10-02 11:06:07,430 - INFO - parser.py:367 - End nodes mapped from original model: '/model.23/cv3.0/cv3.0.2/Conv', '/model.23/cv2.0/cv2.0.2/Conv', '/model.23/cv3.1/cv3.1.2/Conv', '/model.23/cv2.1/cv2.1.2/Conv', '/model.23/cv2.2/cv2.2.2/Conv', '/model.23/cv3.2/cv3.2.2/Conv'.
+2025-10-02 11:06:07,515 - INFO - parser.py:288 - Translation completed on ONNX model paper_ball (completion time: 00:00:00.93)
+2025-10-02 11:06:08,701 - INFO - commands.py:4270 - ParsedPerformanceParam command, setting optimization_level(max=2)
+2025-10-02 11:07:09,553 - WARNING - __init__.py:56 - Cannot use graphviz, so no visualizations will be created
+2025-10-02 11:07:09,620 - INFO - parser.py:158 - Translation started on ONNX model paper_ball
+2025-10-02 11:07:09,670 - INFO - parser.py:193 - Restored ONNX model paper_ball (completion time: 00:00:00.05)
+2025-10-02 11:07:09,868 - INFO - parser.py:216 - Extracted ONNXRuntime meta-data for Hailo model (completion time: 00:00:00.25)
+2025-10-02 11:07:10,563 - INFO - onnx_translator.py:2640 - NMS structure of yolov8 (or equivalent architecture) was detected.
+2025-10-02 11:07:10,564 - INFO - onnx_translator.py:2642 - In order to use HailoRT post-processing capabilities, these end node names should be used: /model.23/cv3.0/cv3.0.2/Conv /model.23/cv2.0/cv2.0.2/Conv /model.23/cv3.1/cv3.1.2/Conv /model.23/cv2.1/cv2.1.2/Conv /model.23/cv2.2/cv2.2.2/Conv /model.23/cv3.2/cv3.2.2/Conv.
+2025-10-02 11:07:10,698 - INFO - parser.py:366 - Start nodes mapped from original model: 'images': 'paper_ball/input_layer1'.
+2025-10-02 11:07:10,698 - INFO - parser.py:367 - End nodes mapped from original model: '/model.23/cv3.0/cv3.0.2/Conv', '/model.23/cv2.0/cv2.0.2/Conv', '/model.23/cv3.1/cv3.1.2/Conv', '/model.23/cv2.1/cv2.1.2/Conv', '/model.23/cv2.2/cv2.2.2/Conv', '/model.23/cv3.2/cv3.2.2/Conv'.
+2025-10-02 11:07:10,802 - INFO - parser.py:288 - Translation completed on ONNX model paper_ball (completion time: 00:00:01.18)
+2025-10-02 11:07:12,351 - INFO - commands.py:4270 - ParsedPerformanceParam command, setting optimization_level(max=2)
+2025-10-02 11:10:46,236 - WARNING - __init__.py:56 - Cannot use graphviz, so no visualizations will be created
+2025-10-02 11:10:46,306 - INFO - parser.py:158 - Translation started on ONNX model paper_ball
+2025-10-02 11:10:46,361 - INFO - parser.py:193 - Restored ONNX model paper_ball (completion time: 00:00:00.06)
+2025-10-02 11:10:46,580 - INFO - parser.py:216 - Extracted ONNXRuntime meta-data for Hailo model (completion time: 00:00:00.27)
+2025-10-02 11:10:47,242 - INFO - onnx_translator.py:2640 - NMS structure of yolov8 (or equivalent architecture) was detected.
+2025-10-02 11:10:47,242 - INFO - onnx_translator.py:2642 - In order to use HailoRT post-processing capabilities, these end node names should be used: /model.23/cv3.0/cv3.0.2/Conv /model.23/cv2.0/cv2.0.2/Conv /model.23/cv3.1/cv3.1.2/Conv /model.23/cv2.1/cv2.1.2/Conv /model.23/cv2.2/cv2.2.2/Conv /model.23/cv3.2/cv3.2.2/Conv.
+2025-10-02 11:10:47,404 - INFO - parser.py:366 - Start nodes mapped from original model: 'images': 'paper_ball/input_layer1'.
+2025-10-02 11:10:47,404 - INFO - parser.py:367 - End nodes mapped from original model: '/model.23/cv3.0/cv3.0.2/Conv', '/model.23/cv2.0/cv2.0.2/Conv', '/model.23/cv3.1/cv3.1.2/Conv', '/model.23/cv2.1/cv2.1.2/Conv', '/model.23/cv2.2/cv2.2.2/Conv', '/model.23/cv3.2/cv3.2.2/Conv'.
+2025-10-02 11:10:47,511 - INFO - parser.py:288 - Translation completed on ONNX model paper_ball (completion time: 00:00:01.21)
+2025-10-02 11:10:49,156 - INFO - commands.py:4270 - ParsedPerformanceParam command, setting optimization_level(max=2)
+2025-10-02 11:12:13,193 - WARNING - __init__.py:56 - Cannot use graphviz, so no visualizations will be created
+2025-10-02 11:12:13,256 - INFO - parser.py:158 - Translation started on ONNX model paper_ball
+2025-10-02 11:12:13,305 - INFO - parser.py:193 - Restored ONNX model paper_ball (completion time: 00:00:00.05)
+2025-10-02 11:12:13,473 - INFO - parser.py:216 - Extracted ONNXRuntime meta-data for Hailo model (completion time: 00:00:00.22)
+2025-10-02 11:12:14,074 - INFO - onnx_translator.py:2640 - NMS structure of yolov8 (or equivalent architecture) was detected.
+2025-10-02 11:12:14,074 - INFO - onnx_translator.py:2642 - In order to use HailoRT post-processing capabilities, these end node names should be used: /model.23/cv3.0/cv3.0.2/Conv /model.23/cv2.0/cv2.0.2/Conv /model.23/cv3.1/cv3.1.2/Conv /model.23/cv2.1/cv2.1.2/Conv /model.23/cv2.2/cv2.2.2/Conv /model.23/cv3.2/cv3.2.2/Conv.
+2025-10-02 11:12:14,197 - INFO - parser.py:366 - Start nodes mapped from original model: 'images': 'paper_ball/input_layer1'.
+2025-10-02 11:12:14,197 - INFO - parser.py:367 - End nodes mapped from original model: '/model.23/cv3.0/cv3.0.2/Conv', '/model.23/cv2.0/cv2.0.2/Conv', '/model.23/cv3.1/cv3.1.2/Conv', '/model.23/cv2.1/cv2.1.2/Conv', '/model.23/cv2.2/cv2.2.2/Conv', '/model.23/cv3.2/cv3.2.2/Conv'.
+2025-10-02 11:12:14,282 - INFO - parser.py:288 - Translation completed on ONNX model paper_ball (completion time: 00:00:01.03)
+2025-10-02 11:12:15,447 - INFO - commands.py:4270 - ParsedPerformanceParam command, setting optimization_level(max=2)
+2025-10-02 11:12:15,447 - INFO - client_runner.py:504 - Loading model script commands to paper_ball from string
+2025-10-02 11:12:15,458 - INFO - commands.py:4270 - ParsedPerformanceParam command, setting optimization_level(max=2)
+2025-10-02 11:12:15,984 - INFO - calib_set_generator.py:130 - Found model with 3 input channels, using real RGB images for calibration instead of sampling random data.
+2025-10-02 11:12:16,291 - IMPORTANT - sdk_backend.py:1133 - Starting Model Optimization
+2025-10-02 11:12:16,377 - IMPORTANT - sdk_backend.py:1133 - Starting Model Optimization
+2025-10-02 11:17:18,080 - WARNING - __init__.py:56 - Cannot use graphviz, so no visualizations will be created
+2025-10-02 11:17:18,135 - INFO - parser.py:158 - Translation started on ONNX model paper_ball
+2025-10-02 11:17:18,190 - INFO - parser.py:193 - Restored ONNX model paper_ball (completion time: 00:00:00.05)
+2025-10-02 11:17:18,383 - INFO - parser.py:216 - Extracted ONNXRuntime meta-data for Hailo model (completion time: 00:00:00.25)
+2025-10-02 11:17:19,011 - INFO - onnx_translator.py:2640 - NMS structure of yolov8 (or equivalent architecture) was detected.
+2025-10-02 11:17:19,011 - INFO - onnx_translator.py:2642 - In order to use HailoRT post-processing capabilities, these end node names should be used: /model.23/cv3.0/cv3.0.2/Conv /model.23/cv2.0/cv2.0.2/Conv /model.23/cv3.1/cv3.1.2/Conv /model.23/cv2.1/cv2.1.2/Conv /model.23/cv2.2/cv2.2.2/Conv /model.23/cv3.2/cv3.2.2/Conv.
+2025-10-02 11:17:19,243 - INFO - parser.py:366 - Start nodes mapped from original model: 'images': 'paper_ball/input_layer1'.
+2025-10-02 11:17:19,243 - INFO - parser.py:367 - End nodes mapped from original model: '/model.23/cv3.0/cv3.0.2/Conv', '/model.23/cv2.0/cv2.0.2/Conv', '/model.23/cv3.1/cv3.1.2/Conv', '/model.23/cv2.1/cv2.1.2/Conv', '/model.23/cv2.2/cv2.2.2/Conv', '/model.23/cv3.2/cv3.2.2/Conv'.
+2025-10-02 11:17:19,404 - INFO - parser.py:288 - Translation completed on ONNX model paper_ball (completion time: 00:00:01.27)
+2025-10-02 11:17:21,000 - INFO - commands.py:4270 - ParsedPerformanceParam command, setting optimization_level(max=2)
+2025-10-02 11:17:21,001 - INFO - client_runner.py:504 - Loading model script commands to paper_ball from string
+2025-10-02 11:17:21,011 - INFO - commands.py:4270 - ParsedPerformanceParam command, setting optimization_level(max=2)
+2025-10-02 11:17:21,685 - INFO - calib_set_generator.py:130 - Found model with 3 input channels, using real RGB images for calibration instead of sampling random data.
+2025-10-02 11:17:22,089 - IMPORTANT - sdk_backend.py:1133 - Starting Model Optimization
+2025-10-02 11:17:22,184 - IMPORTANT - sdk_backend.py:1133 - Starting Model Optimization
+2025-10-02 11:24:26,240 - WARNING - __init__.py:56 - Cannot use graphviz, so no visualizations will be created
+2025-10-02 11:25:07,777 - WARNING - __init__.py:56 - Cannot use graphviz, so no visualizations will be created

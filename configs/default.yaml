@@ -1,0 +1,73 @@
+# YOLO to Hailo Conversion Configuration
+# Default configuration for converting YOLO models to Hailo format
+
+# Model Configuration
+model:
+  name: "paper_ball"
+  input_size: [640, 640]
+  input_format: "RGB"  # RGB uint8
+  input_channels: 3
+  
+  # YOLOv11 end nodes for HailoRT post-processing
+  end_nodes:
+    - "/model.23/cv3.0/cv3.0.2/Conv"
+    - "/model.23/cv2.0/cv2.0.2/Conv" 
+    - "/model.23/cv3.1/cv3.1.2/Conv"
+    - "/model.23/cv2.1/cv2.1.2/Conv"
+    - "/model.23/cv2.2/cv2.2.2/Conv"
+    - "/model.23/cv3.2/cv3.2.2/Conv"
+
+# Hardware Configuration
+hardware:
+  target: "hailo8l"
+  
+# Optimization Settings
+optimization:
+  # Number of calibration samples to use (0 = use all available)
+  num_calibration_samples: 64
+  
+  # Optimization level: 0, 1, 2, max
+  compiler_optimization_level: "max"
+  
+  # Model optimization level: 0 (basic), 1 (normal), 2 (advanced)
+  model_optimization_level: 2
+
+# Paths
+paths:
+  # Default calibration directory
+  calibration_dir: "/home/thanhan/Downloads/compiler/calibration_images"
+  
+  # Model script file
+  model_script: "model_assets/model_script.hls"
+  
+  # Output directories
+  outputs:
+    onnx: "outputs/onnx"
+    har: "outputs/har" 
+    hef: "outputs/hef"
+
+# Preprocessing
+preprocessing:
+  # Normalization parameters
+  normalization:
+    mean: [0.0, 0.0, 0.0]  # Applied after /255
+    std: [1.0, 1.0, 1.0]   # Applied after /255
+    
+  # Image preprocessing
+  resize_method: "bilinear"
+  
+# Logging
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  
+# Validation
+validation:
+  # Check if calibration directory exists and has images
+  validate_calibration: true
+  
+  # Minimum number of calibration images required
+  min_calibration_images: 10
+  
+  # Supported image extensions for calibration
+  supported_extensions: [".jpg", ".jpeg", ".png", ".bmp"]

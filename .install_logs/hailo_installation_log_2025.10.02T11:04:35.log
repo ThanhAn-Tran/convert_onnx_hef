@@ -1,0 +1,10 @@
+[Error] Unsupported release - 25.04. Only 20.04 22.04 24.04 are supported.
+[Error] See full log: /home/thanhan/Downloads/compiler/convert_onnx_hef/.install_logs/hailo_installation_log_2025.10.02T11:04:35.log
+[Error] Requirement python3-tk not found.
+[Error] See full log: /home/thanhan/Downloads/compiler/convert_onnx_hef/.install_logs/hailo_installation_log_2025.10.02T11:04:35.log
+[Error] Requirement graphviz not found.
+[Error] See full log: /home/thanhan/Downloads/compiler/convert_onnx_hef/.install_logs/hailo_installation_log_2025.10.02T11:04:35.log
+[Error] Requirement python3.10-dev not found.
+[Error] See full log: /home/thanhan/Downloads/compiler/convert_onnx_hef/.install_logs/hailo_installation_log_2025.10.02T11:04:35.log
+[Warning] It is recommended to have 32 GB of RAM, while this system has only 18 GB.
+[Info] No GPU connected.
